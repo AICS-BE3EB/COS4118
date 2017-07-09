@@ -1,0 +1,9 @@
+/vendor/*
+/config/app.php
+/tmp/*
+/logs/*
+bower_components/
+composer.lock
+.idea/
+.github/
+webroot/assets/

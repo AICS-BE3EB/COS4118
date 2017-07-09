@@ -1,0 +1,29 @@
+{
+  "name": "cos4118-dependency",
+  "homepage": "http://github.com/rickyx12",
+  "authors": [
+    "Ricardo Osit <aizekrysler@gmail.com>"
+  ],
+  "description": "frontend dependency",
+  "main": "bower.json",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  },
+  "install": {
+    "path":"webroot/assets",
+    "sources": {
+      "bootstrap":"bower_components/bootstrap/dist/**",
+      "jquery":"bower_components/jquery/dist/**"
+    }
+  }
+}
