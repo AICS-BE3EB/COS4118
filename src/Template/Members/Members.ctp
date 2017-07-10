@@ -8,7 +8,11 @@
             <form method="post">
                 <div class="form-group">
                     <label>Last Name</label>
-                    <input type="text" class="class-form">
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>First Name</label>
+                    <input type="text" class="form-control">
                 </div>
             </form>
         </div>
